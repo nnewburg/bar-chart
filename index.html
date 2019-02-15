@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nick's Bar Chart</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <nav class="creationMenu">
+
+    <form id="create"><h1>Create Bar Menu</h1>
+    <label for="size">Size</label>
+    <input type="number" id="size">
+
+  <!--
+   <label for="color">Color</label>
+    <input type="number" id="color">
+-->
+  <select id ='color' name="color">
+  <option value="red">red</option>
+  <option value="green">green</option>
+  <option value="blue">blue</option>
+  <option value="pink">pink</option>
+</select>
+
+
+
+    <button onclick="addElement(); return false;" >Add Bar</button>
+    </form>
+  </nav>
+  <div id="chart">
+
+  </div>
+<script type="text/javascript" src="./main.js"></script>
+</body>
+</html>
