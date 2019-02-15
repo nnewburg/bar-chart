@@ -4,7 +4,8 @@
   width: 50px:;
   float: left;
 }
-input{
+input,
+label{
 
   display: block;
 }
@@ -24,5 +25,6 @@ body{
 #chart div{
   background-color: blue;
   height: 30px;
+  text-align: center;
 }
 

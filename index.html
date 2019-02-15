@@ -7,26 +7,28 @@
 <body>
   <nav class="creationMenu">
 
-    <form id="create"><h1>Create Bar Menu</h1>
+  <form id="create"><h1>Create Bar Menu</h1>
+    <!-- Create a label and input field for the size of the bar -->
     <label for="size">Size</label>
     <input type="number" id="size">
 
-  <!--
-   git test
--->
+    <!--create a label for the bar-->
+    <label for="name">Label of bar</label>
+    <input type="text" id="name">
 
+     <!-- create a dropdown menu to select colors -->
+    <select id ='color' name="color">
+      <option value="red">red</option>
+      <option value="green">green</option>
+      <option value="blue">blue</option>
+      <option value="pink">pink</option>
+    </select>
 
-  <select id ='color' name="color">
-  <option value="red">red</option>
-  <option value="green">green</option>
-  <option value="blue">blue</option>
-  <option value="pink">pink</option>
-</select>
 
 
 
     <button onclick="addElement(); return false;" >Add Bar</button>
-    </form>
+ </form>
   </nav>
   <div id="chart">
 

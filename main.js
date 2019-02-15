@@ -3,6 +3,8 @@ function addElement () {
   node.appendChild( document.createTextNode( '\u00A0' ) );
   document.getElementById("chart").appendChild(node);
 
+  var label = document.getElementById("name").value;
+  node.innerHTML = label;
   var width = document.getElementById("size").value;
   node.style.width = (width * 10) + 'px';
 
